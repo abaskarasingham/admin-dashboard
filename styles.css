@@ -11,11 +11,16 @@ body {
 .home-page {
     display: grid;
     grid-template-columns: 2fr 8fr;
+    grid-template-rows: 0.4fr 1fr;
 }
 
 .home-page div {
     padding: 15px;
 }
+
+
+/* SIDEBAR CONTAINER */
+
 
 .sidebar {
     background-color: #1492db;
@@ -44,11 +49,83 @@ body {
     align-self: flex-start;
 }
 
+
+/* HEADER CONTAINER */
+
+
 .header {
     background-color: white;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 100px 100px;
 }
+
+.header svg {
+    height: 30px;
+}
+
+.header input {
+    width: 90%;
+    font-size: 1rem;
+    border-radius: 15px;
+    background-color: #e1e4ed;
+    border: 0;
+    padding: 8px;
+}
+
+.search-container {
+    display: grid;
+    grid-template-columns: 50px 100%;
+    align-items: flex-start;
+}
+
+.profile-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 75px 75px 200px;
+}
+
+.profile-container h2 {
+    margin: 0;
+}
+
+.display-container {
+    display: grid;
+    grid-template-columns: 70px 500px;
+}
+
+.display-container svg {
+    height: 60px;
+    justify-self: center;
+}
+
+.display-container h4,
+.display-container h1 {
+    margin: 0;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: 140px 140px 140px;
+    align-items: flex-end;
+}
+
+.button-container button {
+    color: white;
+    background-color: #1492db;
+    border-radius: 50px;
+    border: 0;
+    padding: 12px;
+    width: 110px;
+    font-size: 1rem;
+}
+
+
+/* MAIN CONTAINER */
+
 
 .main {
     background-color: lightgrey;
-    grid-column: 2 / 3;
+    display: grid;
 }
