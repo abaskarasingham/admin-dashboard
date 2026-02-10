@@ -128,4 +128,36 @@ body {
 .main {
     background-color: lightgrey;
     display: grid;
+    grid-template-columns: 2.5fr 1.2fr;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 25px;
+}
+
+.project {
+    background-color: white;
+    border-radius: 15px;
+    height: 250px;
+    border-left: 10px solid orange;
+    display: grid;
+    grid-template-rows: 35px 1fr 1fr;
+}
+
+.icons {
+    display: grid;
+    grid-template-columns: 65px 65px 30px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.project p {
+    color: grey;
+    max-inline-size: 35ch;
+}
+
+.project svg {
+    height: 30px;
 }
