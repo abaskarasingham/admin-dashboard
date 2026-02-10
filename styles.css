@@ -11,7 +11,7 @@ body {
 .home-page {
     display: grid;
     grid-template-columns: 2fr 8fr;
-    grid-template-rows: 0.4fr 1fr;
+    grid-template-rows: 1fr 4fr;
 }
 
 .home-page div {
@@ -126,9 +126,9 @@ body {
 
 
 .main {
-    background-color: lightgrey;
+    background-color: #e1e4ed;
     display: grid;
-    grid-template-columns: 2.5fr 1.2fr;
+    grid-template-columns: 3fr 1fr;
 }
 
 .main > h2 {
@@ -150,7 +150,7 @@ body {
     background-color: white;
     border-radius: 15px;
     height: 250px;
-    border-left: 10px solid orange;
+    border-left: 10px solid #f2b200;
     display: grid;
     grid-template-rows: 35px 1fr 1fr;
 }
